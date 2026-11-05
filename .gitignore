@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data: never commit datasets or generated outputs
+data/raw/
+data/processed/
+data/cache/
+results/
+*.graphml
+
+# Secrets and editors
+.env
+.vscode/settings.json
+.idea/
+.DS_Store
+.ipynb_checkpoints/
